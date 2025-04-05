@@ -1,0 +1,176 @@
+/* src/components/Certificates/Certificates.css */
+
+.certificates-page {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../../images/background4.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.csection {
+  background: none;
+  text-align: center;
+}
+
+.certificates-section {
+  padding: 3rem;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.certificates-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  margin-bottom: 3rem;
+}
+
+.section-header p {
+  font-size: 1.25rem;
+  color: #171616;
+}
+
+.certificates-content .certificates-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.single-certificate-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.certificate-img {
+  flex: 1;
+  text-align: left;
+  padding: 1rem;
+}
+
+.certificate-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.certificate-txt {
+  flex: 1;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.certificate-txt a {
+  color: #FF4321;
+}
+
+.certificate-txt h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.certificate-txt p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.certificate-txt .certificate-para2 {
+  margin-top: 1rem;
+  color: #333;
+}
+
+.certificate-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.25rem;
+  background-color: #FF4321;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.certificate-btn:hover {
+  background-color: #FF4321;
+}
+
+/* Tablets and small desktops */
+@media (max-width: 1024px) {
+  .certificates-page {
+    padding: 1.5rem;
+  }
+
+  .certificates-section {
+    padding: 2rem;
+  }
+
+  .single-certificate-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .certificate-txt {
+    padding: 1rem;
+  }
+
+  .certificate-txt h2 {
+    font-size: 1.4rem;
+  }
+
+  .certificate-txt p {
+    font-size: 0.95rem;
+  }
+
+  .certificate-img {
+    text-align: center;
+  }
+
+  .certificate-img img {
+    max-width: 90%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .certificates-page {
+    padding: 1rem;
+  }
+
+  .certificates-section {
+    padding: 1.25rem;
+  }
+
+  .certificate-txt {
+    width: 100%;
+    padding: 0.75rem;
+  }
+
+  .certificate-txt h2 {
+    font-size: 1.2rem;
+  }
+
+  .certificate-txt p {
+    font-size: 0.9rem;
+  }
+
+  .certificate-img img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .certificate-btn {
+    width: 100%;
+    padding: 0.75rem;
+  }
+}
