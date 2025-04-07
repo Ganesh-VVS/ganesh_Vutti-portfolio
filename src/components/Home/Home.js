@@ -37,7 +37,7 @@ function Home() {
       <div className="home-content">
         <div className="left-content">
           <h1><b className="btn-shine">Vutti Venkata Sai Ganesh</b></h1>
-          <h2>Front-end <span>Developer, </span> <span>SAP Consultant</span> and Data <span>Analyst</span></h2>
+          <h2>Front-end <span>Developer, SAP Consultant</span> and Data <span>Analyst</span></h2>
           <p>Solution-oriented mindset, problem-solving enthusiasm, positive attitude towards challenges, overcoming obstacles with enthusiasm.</p>
           <div className="buttons">
             <button className="hire-me" onClick={() => scrollToSection("contact")}>Hire Me</button>
